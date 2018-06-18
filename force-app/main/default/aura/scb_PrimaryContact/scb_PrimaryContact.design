@@ -1,0 +1,4 @@
+<design:component label="Primary Contact">
+    <design:attribute name="Title" label="Title" placeholder="Primary Contact(s)" description="The text to appear in the title of the component" />
+    <design:attribute name="Role" label="Role" placeholder="Decision Maker" description="The Account role of the contacts that should be displayed" />
+</design:component>

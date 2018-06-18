@@ -1,0 +1,15 @@
+<aura:component controller="scb_PrimaryContactController" implements="flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+	<aura:attribute name="recordId" type="Id" />
+    <aura:attribute name="Account" type="Account" />
+    <aura:attribute name="ContactWrappers" type="Object" />
+    <aura:attribute name="Columns" type="List" />
+    <aura:attribute name="Title" type="String" default="Primary Contact(s)"/>
+    <aura:attribute name="Role" type="String" default="Decision Maker"/>
+   
+    <aura:handler name="init" value="{!this}" action="{!c.myAction}" />
+
+    <lightning:card iconName="standard:contact" title="{! v.Title }">
+        <lightning:datatable data="{! v.ContactWrappers }" columns="{! v.Columns }" keyField="cid" hideCheckboxColumn="true"/>
+    </lightning:card>
+
+</aura:component>
