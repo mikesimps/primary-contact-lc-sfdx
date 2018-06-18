@@ -28,13 +28,23 @@ To use this component, you must add it to the Account record pages
 
 1) Navigate to edit the Lightning Page Layout (easiest way is to view an account Gear > Edit Page)
 2) In the Lightning Component list, under custom there should be a component named "Primary Contact". Drag this onto the page.
-3) There are two settings you can adjust based on your needs
-    * Title: The text that will display at the top of the component (Default - "Primary Contact(s)")
-    * Role: The role (from the related contact list) that will be used to filter the contacts displayed. Only a single role can be used. (Default - "Decision Maker")
+3) There are two settings you can adjust based on your needs:
+<br/>
+    
+<img align="right" src="https://user-images.githubusercontent.com/3085186/41557379-7499ddec-730b-11e8-95fa-0141762c721e.png" width="300">
+
+
+**Title**: The text that will display at the top of the component (Default - "Primary Contact(s)")</li>
+
+**Role**: The role (from the related contact list) that will be used to filter the contacts displayed. Only a single role can be used. (Default - "Decision Maker")</li>
+<br/><br/><br/><br/><br/>
+
 
 ## Usage
 
 This should likely be a primary part of your page. It makes it clear who you should be working with and what their contact information is.
+
+![Deployed Example](https://user-images.githubusercontent.com/3085186/41557260-0f63cbcc-730b-11e8-9800-7a9082e4f564.png)
 
 ## Contributions
 
