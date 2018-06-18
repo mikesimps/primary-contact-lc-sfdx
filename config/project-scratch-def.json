@@ -1,6 +1,7 @@
 {
-    "orgName": "mike Company",
-    "edition": "Developer",
+    "orgName": "Scobble Inc",
+    "edition": "Enterprise",
+    "features": ["ContactsToMultipleAccounts"],
     "orgPreferences" : {
         "enabled": ["S1DesktopEnabled"]
     }
