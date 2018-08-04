@@ -1,6 +1,6 @@
 # Primary Contact Lightning Component
 
-A small lightning component making it easy to highlight who the primary contacts are for an account based on their role. This component is intended to added to an Account record page. I did this as a person exploration into creating custom lightning components.
+A small lightning component making it easy to highlight who the primary contacts are for an account based on their role. This component is intended to added to an Account record page. I did this as a personal exploration into creating custom lightning components.
 
 ## Getting Started
 
